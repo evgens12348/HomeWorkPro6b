@@ -6,7 +6,7 @@ import java.sql.*;
 public class ConnectSql {
     private static final String DB_CONNECTION = "jdbc:mysql://localhost:3306/db_orders";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "Vfhbyf1975";
+    private static final String DB_PASSWORD = "root";
     private static final String DB_USERS="CREATE TABLE IF NOT EXISTS users (user_id INT NOT NULL AUTO_INCREMENT " +
             "PRIMARY KEY, first_name VARCHAR(30) NOT NULL, surname VARCHAR(60) NOT NULL)";
     private static final String DB_PRODUCT="CREATE TABLE IF NOT EXISTS product (product_id INT NOT NULL AUTO_INCREMENT " +
